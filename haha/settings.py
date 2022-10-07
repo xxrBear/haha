@@ -75,19 +75,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangotest',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
         'PASSWORD': '1234',
-    },
-    'cloud': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangotest',
-        'HOST': '81.68.222.167',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'oig#123456',
-    },
+    }
 }
 
 # Password validation
